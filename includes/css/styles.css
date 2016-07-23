@@ -13,6 +13,8 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
+
+
 #features{
   text-align: center;
 }
@@ -65,6 +67,10 @@ Notes:	 Hand coded for Udemy.com
   font-size: 40px;
   text-shadow: 1px 1px 2px black,0 0 25px 	#00FFFF,0 0 5px darkblue;
 }
+#author{
+  font-size: 25px;
+  text-shadow: 1px 1px 2px black,0 0 25px 	#00FFFF;
+}
 #ud{
   text-decoration: none;
 }
@@ -74,14 +80,26 @@ a:hover {
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-
+   .carousel .item {
+  text-align: center;
+  height: 500px;
+  background-color: #777;
+  }
 
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+footer{
 
 
+  font-size:16px;
+  padding:20px;
+}
+
+#ll{
+  list-style-type: none;
+}
 
 /* --------------------------------------
    Media Queries
